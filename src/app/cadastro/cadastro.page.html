@@ -1,0 +1,38 @@
+<ion-content>
+  <ion-card>
+    <p>Cadastro</p>
+    <ion-list>
+      <ion-item>
+        <ion-label>Nome</ion-label>
+        <ion-input placeholder="Fulaninho de tal"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Email</ion-label>
+        <ion-input placeholder="@gmail.com"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Telefone</ion-label>
+        <ion-input placeholder="00000000000"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Idade</ion-label>
+        <ion-input placeholder="00"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Senha</ion-label>
+        <ion-input placeholder="##########"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Confirmar Senha</ion-label>
+        <ion-input placeholder="##########"></ion-input>
+      </ion-item>
+    </ion-list>
+    <ion-button expand="full" [routerLink]="['/src/app/tab1']">Criar Conta</ion-button>
+  </ion-card>
+  <ion-card>
+  <h1>Ja possui uma conta?</h1>
+  <ion-button expand="full" [routerLink]="['/src/app/login']">Fazer Login</ion-button>
+</ion-card>
+
+
+</ion-content>
