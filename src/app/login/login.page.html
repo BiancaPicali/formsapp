@@ -1,9 +1,22 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>login</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
+  <ion-card>
+    <p>Login</p>
+    <ion-list>
+      <ion-item>
+        <ion-label>Email</ion-label>
+        <ion-input placeholder="@gmail.com"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Senha</ion-label>
+        <ion-input placeholder="*********"></ion-input>
+      </ion-item>
+    </ion-list>
+    <ion-button expand="full" [routerLink]="['/tu']">Fazer Login</ion-button>
+  </ion-card>
+  <ion-card>
+  <h1>Não possui uma conta?</h1>
+  <ion-button expand="full" [routerLink]="['/cadastro']">Criar Cadastro</ion-button>
+</ion-card>
+
 
 </ion-content>

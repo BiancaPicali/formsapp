@@ -27,11 +27,15 @@
         <ion-input placeholder="##########"></ion-input>
       </ion-item>
     </ion-list>
-    <ion-button expand="full" [routerLink]="['/src/app/tab1']">Criar Conta</ion-button>
+    <ion-button expand="full" [routerLink]="['/ti']">Criar Conta</ion-button>
   </ion-card>
+  <ion-item>
+    <ion-checkbox slot="start"></ion-checkbox>
+    <ion-label>Eu aceito os termos e condições</ion-label>
+  </ion-item>
   <ion-card>
   <h1>Ja possui uma conta?</h1>
-  <ion-button expand="full" [routerLink]="['/src/app/login']">Fazer Login</ion-button>
+  <ion-button expand="full" [routerLink]="['/login']">Fazer Login</ion-button>
 </ion-card>
 
 
